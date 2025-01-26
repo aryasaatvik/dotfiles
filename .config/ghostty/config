@@ -1,0 +1,30 @@
+theme = Dark Pastel
+background-blur-radius = 20  
+background-opacity = 0.85
+font-family = JetBrainsMono Nerd Font
+font-size = 13
+window-width = 120
+window-height = 35
+
+working-directory = home
+window-inherit-working-directory = false
+
+cursor-style = block
+cursor-style-blink = true
+scrollback-limit = 10000000
+
+shell-integration = zsh
+shell-integration-features = no-cursor
+
+confirm-close-surface = false
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+macos-icon = custom-style
+macos-icon-frame = chrome
+macos-icon-ghost-color = #9580FF
+macos-icon-screen-color = #1E1E2E,#302D41
+
+quick-terminal-position = center
+
+keybind = super+comma=text:nvim ~/.config/ghostty/config\n
